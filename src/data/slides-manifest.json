@@ -1,0 +1,66 @@
+[
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "position": 1,
+    "filepath": "src/pages/slides/Slide01_Title.tsx",
+    "title": "SmartHome AR",
+    "description": "Titre de la pr\u00e9sentation",
+    "speakerNotes": ""
+  },
+  {
+    "id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+    "position": 2,
+    "filepath": "src/pages/slides/Slide02_Problem.tsx",
+    "title": "Le D\u00e9fi",
+    "description": "Le probl\u00e8me d'achat de meubles sans visualisation",
+    "speakerNotes": ""
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+    "position": 3,
+    "filepath": "src/pages/slides/Slide03_Solution.tsx",
+    "title": "Notre Solution",
+    "description": "Application AR pour visualiser les meubles",
+    "speakerNotes": ""
+  },
+  {
+    "id": "d4e5f6a7-b8c9-0123-defa-456789012345",
+    "position": 4,
+    "filepath": "src/pages/slides/Slide04_Auth.tsx",
+    "title": "Connexion & Inscription",
+    "description": "Parcours de connexion et inscription",
+    "speakerNotes": ""
+  },
+  {
+    "id": "e5f6a7b8-c9d0-1234-efab-567890123456",
+    "position": 5,
+    "filepath": "src/pages/slides/Slide05_Catalogue.tsx",
+    "title": "Catalogue AR Intelligent",
+    "description": "Exploration par cat\u00e9gorie",
+    "speakerNotes": ""
+  },
+  {
+    "id": "f6a7b8c9-d0e1-2345-fabc-678901234567",
+    "position": 6,
+    "filepath": "src/pages/slides/Slide06_AR.tsx",
+    "title": "Exp\u00e9rience AR",
+    "description": "Processus AR en 3 \u00e9tapes",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a7b8c9d0-e1f2-3456-abcd-789012345678",
+    "position": 7,
+    "filepath": "src/pages/slides/Slide07_Profil.tsx",
+    "title": "Profil & Projets",
+    "description": "Tableau de bord et projets sauvegard\u00e9s",
+    "speakerNotes": ""
+  },
+  {
+    "id": "b8c9d0e1-f2a3-4567-bcde-890123456789",
+    "position": 8,
+    "filepath": "src/pages/slides/Slide08_Closing.tsx",
+    "title": "Merci",
+    "description": "Slide de remerciement",
+    "speakerNotes": ""
+  }
+]
