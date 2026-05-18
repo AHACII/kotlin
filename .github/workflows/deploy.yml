@@ -17,23 +17,26 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
-      - name: Enable pnpm
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Activate pnpm
+        run: corepack prepare pnpm@latest --activate
+
+      - name: Remove old files
         run: |
-          corepack enable
-          corepack prepare pnpm@latest --activate
-
-      - name: Clean modules
-        run: rm -rf node_modules
+          rm -rf node_modules
+          rm -f package-lock.json
 
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
-      - name: Build
+      - name: Build project
         run: pnpm build
 
       - name: Deploy
